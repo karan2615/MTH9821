@@ -1,0 +1,15 @@
+{
+  "python": "3.11.15",
+  "numpy": "2.4.4",
+  "scipy": "1.17.1",
+  "os": "Linux-6.18.44-fc-v70-x86_64-with-glibc2.39",
+  "cpu": "Intel(R) Xeon(R) Processor @ 2.80GHz",
+  "logical_cpus": 2,
+  "timing_reps": 5,
+  "master_seed": 9821,
+  "batch_paths": 10000,
+  "n_prod": 100000,
+  "n_pilot": 10000,
+  "n_prod_sensitivity": 100000,
+  "n_bonus": 100000
+}
