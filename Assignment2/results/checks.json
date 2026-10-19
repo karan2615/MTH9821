@@ -1,0 +1,90 @@
+{
+  "two_period": {
+    "q": 0.6250000000000001,
+    "C1_up": 1.4285714285714282,
+    "C1_down": 15.238095238095234,
+    "action_up": "continue",
+    "action_down": "exercise",
+    "C0": 7.993197278911562,
+    "V0": 7.993197278911562,
+    "evaluator_value": 7.993197278911563,
+    "path_tau": [
+      2,
+      2,
+      1,
+      1
+    ],
+    "path_H": [
+      0.0,
+      3.6281179138321993,
+      19.047619047619047,
+      19.047619047619047
+    ],
+    "path_weights": [
+      0.39062500000000017,
+      0.23437499999999997,
+      0.23437499999999997,
+      0.14062499999999992
+    ]
+  },
+  "crr_2500_independent": 6.078371664439777,
+  "crr_2500_supplied": 6.0783716644,
+  "crr_time_s": 0.03472574200000622,
+  "european": {
+    "mean": 5.587629506764838,
+    "se": 0.027438814963012814,
+    "ci_lo": 5.533849429437333,
+    "ci_hi": 5.641409584092343,
+    "black_scholes": 5.5735260223,
+    "z": 0.5139975791173519
+  },
+  "loop_evaluator_max_abs_diff": 3.552713678800501e-15,
+  "n25_regions": {
+    "LSM d=2": {
+      "n_switches": 1,
+      "exercise_up_to": 85.43503208950438,
+      "n_exercise_points": 21
+    },
+    "FQ d=2": {
+      "n_switches": 0,
+      "exercise_up_to": null,
+      "n_exercise_points": 0
+    },
+    "LSM d=4": {
+      "n_switches": 1,
+      "exercise_up_to": 84.48151847674606,
+      "n_exercise_points": 17
+    },
+    "FQ d=4": {
+      "n_switches": 1,
+      "exercise_up_to": 82.57449125122943,
+      "n_exercise_points": 9
+    }
+  },
+  "fallbacks": {
+    "LSM_d2_seed17": [],
+    "FQ_d2_seed17": [],
+    "LSM_d4_seed17": [],
+    "FQ_d4_seed17": [],
+    "LSM_d2_seed29": [],
+    "FQ_d2_seed29": [],
+    "LSM_d4_seed29": [],
+    "FQ_d4_seed29": [],
+    "LSM_d2_seed43": [],
+    "FQ_d2_seed43": [],
+    "LSM_d4_seed43": [],
+    "FQ_d4_seed43": []
+  },
+  "reference": {
+    "bermudan_fine": 6.0786087531,
+    "last_change": 2.7983e-05,
+    "european_bs": 5.5735260223
+  },
+  "environment": {
+    "python": "3.11.15",
+    "numpy": "2.4.4",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.9",
+    "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39"
+  }
+}
